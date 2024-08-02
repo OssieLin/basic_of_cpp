@@ -1,5 +1,5 @@
-# include <iostream>
-# include <string>
+#include <iostream>
+#include <string>
 // deifferent ways to read input in cpp
 
 int main(){
@@ -8,4 +8,5 @@ int main(){
     std::cin >> input_1;
     std::cout << "This types of input reads input until whitespace(space, tab, newline) is encountered";
 
+    return 0;
 }

@@ -7,6 +7,9 @@ int main(){
     std::cout << "It's basically an array" << std::endl;
     std::cout << "";
     std::vector <int> v = {1,2,3,4,5};
+    std::cout << "Given an array: " << std::endl;
+    for(int i: v) std::cout << i << " ";
+    std::cout << std::endl;
     std::cout << "Capacity of the vector: " << v.capacity() << std::endl;
     std::cout << "size of the vector: " << v.size() << std::endl;
     return 0;
